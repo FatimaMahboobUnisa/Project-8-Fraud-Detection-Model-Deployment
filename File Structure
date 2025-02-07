@@ -1,0 +1,4 @@
+.
+├── FraudDetection.scala     # Model training code
+├── kubernetes.yaml          # K8s deployment
+└── build.sbt                # Scala dependencies

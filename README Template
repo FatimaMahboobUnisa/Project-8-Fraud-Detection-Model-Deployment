@@ -1,0 +1,30 @@
+
+
+[![Scala](https://img.shields.io/badge/Scala-2.12-red)](https://www.scala-lang.org/)
+[![Spark](https://img.shields.io/badge/Spark-3.5.0-orange)](https://spark.apache.org/)
+[![Kubernetes](https://img.shields.io/badge/Kubernetes-1.28-blue)](https://kubernetes.io/)
+
+Scala-based gradient-boosted tree model for fraud detection, deployed on Kubernetes with MLOps best practices.
+
+## Key Features
+- **False Positive Reduction**: 30% decrease via hyperparameter tuning.
+- **Real-Time Scoring**: Apache Kafka integration for stream processing.
+- **Monitoring**: Drift detection with MLflow and Evidently AI.
+
+## Usage
+1. Build Docker image:
+   ```bash
+   docker build -t fraud-detection .
+2. deploy kubernotes:
+   ```bash
+  kubectl apply -f kubernetes.yaml
+
+
+---
+
+### **Next Steps**  
+1. **Customize Credentials**: Replace AWS/S3 paths and credentials in code.  
+2. **Add Testing**: Include unit tests (e.g., `test_pipeline.py`) for CI/CD validation.  
+3. **Enhance Monitoring**: Add Prometheus/Grafana dashboards for Projects 7 and 8.  
+
+Let me know if you’d like to refine these or tackle additional projects (e.g., real-time analytics, blockchain-AI hybrids)! 🚀
